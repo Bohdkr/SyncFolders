@@ -1,16 +1,26 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import os
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def copy_file(source, replica):
+    with open(source, 'r') as source_file:
+        with open(replica, 'w') as replica_file:
+            replica_file.write(source_file.read())
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def sync_folders(source, replica):
+    for item in os.listdir(source_folder):
+        source_item = os.path.join(source, item)
+        replica_item = os.path.join(replica, item)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+        if os.path.isdir(source_item):
+            sync_folders(source_item, replica_item)
+        else:
+            copy_file(source_item, replica_item)
+            print("Copied")
+
+
+if __name__ == "__main__":
+    source_folder = input("Enter source folder: ")
+    replica_folder = input("Enter replica folder: ")
+
+    sync_folders(source_folder, replica_folder)
