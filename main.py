@@ -1,6 +1,7 @@
 import os
 import logging
-
+import sched
+import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logger = logging.getLogger(__name__)
@@ -11,7 +12,7 @@ def copy_file(source, replica):
         with open(replica, 'wb') as replica_file:
             replica_file.write(source_file.read())
 
-    logger.info(f"Copied file {source} in {replica_folder}")
+    logger.info(f"Copied file {source} in {replica}")
 
 
 def sync_folders(source, replica):
@@ -28,14 +29,26 @@ def sync_folders(source, replica):
             copy_file(source_item, replica_item)
 
 
+def sync_periodically(source, replica, interval_minutes):
+    scheduler = sched.scheduler(time.time, time.sleep)
+
+    def sync_task():
+        sync_folders(source, replica)
+        scheduler.enter(interval_minutes * 60, priority=1, action=sync_task)
+
+    scheduler.enter(0, 1, sync_task)
+    scheduler.run()
+
+
 if __name__ == "__main__":
     source_folder = input("Enter source folder: ")
     replica_folder = input("Enter replica folder: ")
     logger_file = input("Enter path to logging file: ")
+    interval_minutes = int(input("Enter sync interval in minutes: "))
 
     file_handler = logging.FileHandler(logger_file)
     file_handler.setLevel(logging.INFO)
-    file_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+    file_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s',  datefmt='%d-%b-%y %H:%M:%S'))
     logger.addHandler(file_handler)
 
-    sync_folders(source_folder, replica_folder)
+    sync_periodically(source_folder, replica_folder, interval_minutes)

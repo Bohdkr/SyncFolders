@@ -5,3 +5,28 @@
 17-Feb-24 10:43:21 - Copied file into replica folder
 2024-02-17 10:43:21,379 - Copied file into replica folder
 17-Feb-24 10:43:21 - Copied file into replica folder
+Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\Replica
+Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\Replica
+2024-02-17 11:16:11,197 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\Replica
+2024-02-17 11:16:11,200 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\Replica
+17-Feb-24 11:19:26 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\Replica
+17-Feb-24 11:19:26 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\Replica
+17-Feb-24 15:07:40 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:07:40 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:08:11 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\Replica
+17-Feb-24 15:08:11 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\Replica
+17-Feb-24 15:09:50 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:09:50 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:13:25 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:13:25 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:14:14 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:14:14 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica
+17-Feb-24 15:18:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica\newtetsfile
+17-Feb-24 15:18:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica\test
+17-Feb-24 15:19:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica\newtetsfile
+17-Feb-24 15:19:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica\test
+17-Feb-24 15:20:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica\newtetsfile
+17-Feb-24 15:20:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica\test
+17-Feb-24 15:21:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\newtetsfile in C:\Users\Ouro\Desktop\FolderSync\replica\newtetsfile
+17-Feb-24 15:21:00 - Created folder: C:\Users\Ouro\Desktop\FolderSync\replica\newwf
+17-Feb-24 15:21:00 - Copied file C:\Users\Ouro\Desktop\FolderSync\Source\test in C:\Users\Ouro\Desktop\FolderSync\replica\test
