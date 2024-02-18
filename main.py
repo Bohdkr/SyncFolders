@@ -8,11 +8,14 @@ logger = logging.getLogger(__name__)
 
 
 def copy_file(source, replica):
-    with open(source, 'rb') as source_file:
-        with open(replica, 'wb') as replica_file:
-            replica_file.write(source_file.read())
+    if not os.path.exists(replica):
+        with open(source, 'rb') as source_file:
+            with open(replica, 'wb') as replica_file:
+                replica_file.write(source_file.read())
+        logger.info(f"Copied file {source} in {replica}")
 
-    logger.info(f"Copied file {source} in {replica}")
+    else:
+        logger.info(f"File {source} is already synchronized")
 
 
 def sync_folders(source, replica):
