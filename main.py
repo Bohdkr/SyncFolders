@@ -19,6 +19,18 @@ def copy_file(source, replica):
 
 
 def sync_folders(source, replica):
+    for item in os.listdir(replica):
+        source_item = os.path.join(source, item)
+        replica_item = os.path.join(replica, item)
+
+        if os.path.isfile(replica_item) and not os.path.exists(source_item):
+            os.remove(replica_item)
+            logger.info(f"File {replica_item} was removed")
+
+        if os.path.isdir(replica_item) and not os.path.exists(source_item):
+            os.removedirs(replica_item)
+            logger.info(f"Folder {replica_item} was removed")
+
     for item in os.listdir(source):
         source_item = os.path.join(source, item)
         replica_item = os.path.join(replica, item)

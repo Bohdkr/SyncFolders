@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8537febe-afe6-4865-bf1a-6e3258a9fc77" name="Changes" comment="Scheduler added">
+    <list default="true" id="8537febe-afe6-4865-bf1a-6e3258a9fc77" name="Changes" comment="Logger doesnt say that program copied files which were already identical">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708179724607</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Logger doesnt say that program copied files which were already identical">
+      <option name="closed" value="true" />
+      <created>1708270733832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708270733832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +158,7 @@
     <MESSAGE value="SyncFolders Project" />
     <MESSAGE value="Logging function added" />
     <MESSAGE value="Scheduler added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scheduler added" />
+    <MESSAGE value="Logger doesnt say that program copied files which were already identical" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger doesnt say that program copied files which were already identical" />
   </component>
 </project>
